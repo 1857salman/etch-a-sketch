@@ -1,6 +1,8 @@
 body {
+  font-family: "Courier New", Courier, monospace;
   margin: 0;
-  background-color: hsl(220, 30%, 50%);
+  padding: 10px;
+  background-color: #3a5a40;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,10 +12,9 @@ body {
 .container {
   margin: 0;
   padding: 0;
-  width: 400px;
-
-  height: 400px;
-  background-color: rgb(199, 222, 241);
+  width: 500px;
+  height: 500px;
+  background-color: #dee2e6;
   border: 2px solid hsl(220, 85%, 0%);
   display: flex;
   flex-flow: wrap;
@@ -22,11 +23,31 @@ body {
 .box {
   /* very important propert for creating grid */
   box-sizing: border-box;
-  border: 1px solid hsl(0, 91%, 30%);
+  border: 1px solid hsl(0, 90%, 4%);
   width: 100px;
   flex: 1 1 auto;
 }
-h1 {
-  font-size: 24px;
+
+/* header section with title and button */
+.header {
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.btn {
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 10px;
+  border: 2px solid hsl(rgb(15, 42, 165), 50%, 50%);
+  border-radius: 10px;
+  background-color: #dad7cd;
+  color: black;
 }

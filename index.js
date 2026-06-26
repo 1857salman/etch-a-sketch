@@ -54,7 +54,6 @@ container.addEventListener("mouseover", (event) => {
     opacity += 0.05;
     item.style.opacity = `${opacity}`;
   }
-  // console.log(item.style.opacity);
 });
 
 container.addEventListener("mouseout", (event) => {

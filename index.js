@@ -1,5 +1,5 @@
 // Set  the sketch pad width here: in px units
-const SKETCH_WIDTH = 420;
+const SKETCH_WIDTH = 500;
 
 const container = document.querySelector(".container");
 const button = document.querySelector(".btn");
